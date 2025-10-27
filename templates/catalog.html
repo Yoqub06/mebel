@@ -1,1031 +1,917 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="images/favicon.ico" sizes="16x16">
-	<title>Mebel-Ars - Фабрика диванов</title>
-	<link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
-</head>
-<body>	
-	<div id="wrapper">
-		<header class="header">	
-			<div class="header-fixed">
-				<div class="holder">
-					<div class="header-fixed-block">
-						<div class="fixed-logo">
-							<img src="images/logo.svg" alt="">
-						</div>
-						<div class="fixed-right">
-							<a href="tel:+88008008080" class="fixed-phone">8 800 800 80 80</a>
-							<a href="" class="fixed-fav">
-								<svg enable-background="new 0 0 512.18 512.18" version="1.1" viewBox="0 0 512.18 512.18" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-									<path d="m511.82 170.19c-0.14-1.786-0.298-3.155-0.44-4.095-7.165-81.141-66.694-145.37-143.95-145.37-44.758 0-85.66 21.18-112.44 55.516-26.157-34.567-65.501-55.516-110.02-55.516-76.994 0-136.39 63.79-144.03 145.83-0.147 0.956-0.295 2.12-0.43 3.489-1.307 13.254-0.22 30.816 4.831 52.214 10.732 45.463 35.828 86.871 71.224 118.96l164.83 144.92c8.028 7.059 20.042 7.085 28.101 0.062l166.04-144.68c39.134-40.728 62.393-77.366 71.616-119.58 4.627-21.202 5.704-38.649 4.681-51.742zm-46.365 42.642c-7.254 33.204-26.552 63.603-59.352 97.843l-150.56 131.1-150.57-132.38c-28.881-26.184-49.406-60.051-58.113-96.933-3.953-16.747-4.747-29.585-3.895-38.225 0.075-0.764 0.393-3.072 0.393-3.072 5.488-61.777 48.117-107.76 101.61-107.76 39.823 0 73.704 24.287 90.17 63.294 7.338 17.382 31.97 17.382 39.308 0 16.136-38.225 52.419-63.294 92.986-63.294 53.494 0 96.121 45.99 101.61 107.79 0.147 1.242 0.187 1.586 0.245 2.333 0.705 9.025-0.114 22.295-3.828 39.317z"/>
-								</svg>	
-							</a>
-							<a href="" class="fixed-cart">
-								<svg enable-background="new 0 0 469.333 469.333" version="1.1" viewBox="0 0 469.33 469.33" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
-									<path d="m434.98 42.667h-349.65c-1.053 0-2.014 0.396-3.001 0.693l-8.594-28.241c-2.733-8.981-11.017-15.119-20.405-15.119h-42.666c-5.891 0-10.667 4.776-10.667 10.667v21.333c0 5.891 4.776 10.667 10.667 10.667h26.865l66.646 219.01-24.891 29.039c-9.838 11.477-14.268 27.291-9.74 41.713 5.791 18.445 22.07 30.237 40.839 30.237h305.61c5.891 0 10.667-4.776 10.667-10.667v-21.333c0-5.891-4.776-10.667-10.667-10.667h-305.62l33.813-39.448c0.85-0.992 1.475-2.112 2.12-3.219h206.7c16.533 0 31.578-9.548 38.618-24.507l74.434-158.17c2.135-4.552 3.26-9.604 3.26-14.615v-3.021c0-18.971-15.381-34.352-34.354-34.352z"/>
-									<circle cx="128" cy="426.67" r="42.667"/>
-									<circle cx="384" cy="426.67" r="42.667"/>
-								</svg>
-							</a>
-							<a href="" class="fixed-user">
-								<svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">	
-									<path d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z"/>
-									<path d="m423.97 358.2c-36.96-37.528-85.957-58.195-137.97-58.195h-60c-52.008 0-101.01 20.667-137.97 58.195-36.779 37.344-57.034 86.638-57.034 138.8 0 8.284 6.716 15 15 15h420c8.284 0 15-6.716 15-15 0-52.167-20.255-101.46-57.034-138.8z"/>
-								</svg>
-							</a>
-						</div>
-						<a href="" class="mob-nav-icon"><span class="mob-nav-block"></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="header-top">
-				<div class="holder">
-					<div class="header-top-block">
-						<ul class="header-nav-list">
-							<li><a href="">Главная</a></li>
-							<li><a href="">Каталог</a></li>
-							<li><a href="">Доставка и оплата</a></li>
-							<li><a href="" class="active">О компании</a></li>
-							<li><a href="">Сотрудничество</a></li>
-							<li><a href="">Контакты</a></li>
-						</ul>
-						<div class="header-search">
-							<form action="">
-								<fieldset>
-									<input type="text" class="search-input" placeholder="">
-									<button class="search-button"></button>
-								</fieldset>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</header>
-		<section class="main">
-			<div class="holder">
-				<div class="category">
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon1">
-								<img src="images/icons/icon1.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon1-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Диваны прямые</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon2">
-								<img src="images/icons/icon2.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon2-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Диваны угловые</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon3">
-								<img src="images/icons/icon3.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon3-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Диваны детские</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item active">
-							<div class="category-img icon4">
-								<img src="images/icons/icon4.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon4-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Кухонные диваны</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon5">
-								<img src="images/icons/icon5.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon5-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Софа и кушетки</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon6">
-								<img src="images/icons/icon6.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon6-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Кровати</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon7">
-								<img src="images/icons/icon7.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon7-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Кресла</div>
-						</a>
-					</div>
-					<div class="category-col">
-						<a href="" class="category-item">
-							<div class="category-img icon8">
-								<img src="images/icons/icon8.svg" alt="" class="icon-vis">
-								<img src="images/icons/icon8-hover.svg" alt="" class="icon-hover">
-							</div>
-							<div class="category-text">Распродажа</div>
-						</a>
-					</div>
-				</div>
-				<h2 class="title-min">Кресла <span>(12 товаров)</span></h2>
-				<div class="filter">
-					<div class="filter-side">
-						<a href="" class="filter-more">Больше фильтров +</a>
-						<div class="filter-item">
-							<a href="" class="filter-top">Сортировка</a>
-							<div class="filter-hidden">
-								<ul class="filter-list">
-									<li><a href="">значение фильтра 1</a></li>
-									<li><a href="">значение фильтра 2</a></li>
-									<li><a href="">значение фильтра 3</a></li>
-									<li><a href="">значение фильтра 4</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="filter-content">
-						<div class="filter-line">
-							<div class="filter-item">
-								<a href="" class="filter-top">Цена</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Размеры</a>
-								<div class="filter-hidden">
-									<div class="filter-size">
-										<div class="filter-size-line">
-											<div class="filter-size-text">Длина</div>
-											<div class="filter-size-input">
-												<input type="text" class="input" placeholder="107см">
-											</div>
-											<div class="filter-size-divider">—</div>
-											<div class="filter-size-input">
-												<input type="text" class="input" placeholder="2307см">
-											</div>
-										</div>
-										<div class="filter-size-line">
-											<div class="filter-size-text">Ширина</div>
-											<div class="filter-size-input">
-												<input type="text" class="input" placeholder="107см">
-											</div>
-											<div class="filter-size-divider">—</div>
-											<div class="filter-size-input">
-												<input type="text" class="input" placeholder="2307см">
-											</div>
-										</div>
-										<div class="filter-size-line">
-											<div class="filter-size-text">Высота</div>
-											<div class="filter-size-input">
-												<input type="text" class="input" placeholder="107см">
-											</div>
-											<div class="filter-size-divider">—</div>
-											<div class="filter-size-input">
-												<input type="text" class="input" placeholder="2307см">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Спальное место</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Цвет</a>
-								<div class="filter-hidden">
-									<div class="color-block">
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color1">
-											<label for="color1" class="color-label" style="background: #0e0e0e;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color2">
-											<label for="color2" class="color-label" style="background: #454a4e;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color3" checked>
-											<label for="color3" class="color-label" style="background: #ffffff; border: 1px solid #000;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color4">
-											<label for="color4" class="color-label" style="background: #f35858;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color5">
-											<label for="color5" class="color-label" style="background: #fb894a;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color6">
-											<label for="color6" class="color-label" style="background: #fed65a;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color7">
-											<label for="color7" class="color-label" style="background: #9ef971;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color8">
-											<label for="color8" class="color-label" style="background: #64a0c2;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color9">
-											<label for="color9" class="color-label" style="background: #9264fa;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color10">
-											<label for="color10" class="color-label" style="background: #f75290;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color11">
-											<label for="color11" class="color-label" style="background: #e5c08a;"></label>
-										</div>
-										<div class="color-item">
-											<input type="radio" name="color" class="color-input" id="color12">
-											<label for="color12" class="color-label" style="background: #57392f;"></label>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Преимущества</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Стиль</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Механизм</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Наполнение</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="filter-item">
-								<a href="" class="filter-top">Тип обивки</a>
-								<div class="filter-hidden">
-									<ul class="filter-list">
-										<li><a href="">значение фильтра 1</a></li>
-										<li><a href="">значение фильтра 2</a></li>
-										<li><a href="">значение фильтра 3</a></li>
-										<li><a href="">значение фильтра 4</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="filter-current">
-							<a href="" class="filter-current-item">Кресла</a>
-							<a href="" class="filter-current-item">10 000 руб - 20 000 руб</a>
-							<a href="" class="filter-current-item">Зеленый</a>
-							<a href="" class="filter-delete">Очистить все</a>
-						</div>
-					</div>
-				</div>
-				<div class="catalog">
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Еврокнижка</a></div>
-								<div class="catalog-name"><a href="">Фиджи</a></div>
-								<div class="catalog-price">5 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Выкатные диваны</a></div>
-								<div class="catalog-name"><a href="">Амстердам</a></div>
-								<div class="catalog-price">14 000 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Угловые диваны</a></div>
-								<div class="catalog-name"><a href="">Мартин</a></div>
-								<div class="catalog-price">34 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Аккордеон</a></div>
-								<div class="catalog-name"><a href="">Статус</a></div>
-								<div class="catalog-price">122 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Еврокнижка</a></div>
-								<div class="catalog-name"><a href="">Фиджи</a></div>
-								<div class="catalog-price">5 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Выкатные диваны</a></div>
-								<div class="catalog-name"><a href="">Амстердам</a></div>
-								<div class="catalog-price">14 000 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Угловые диваны</a></div>
-								<div class="catalog-name"><a href="">Мартин</a></div>
-								<div class="catalog-price">34 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Аккордеон</a></div>
-								<div class="catalog-name"><a href="">Статус</a></div>
-								<div class="catalog-price">122 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Еврокнижка</a></div>
-								<div class="catalog-name"><a href="">Фиджи</a></div>
-								<div class="catalog-price">5 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Выкатные диваны</a></div>
-								<div class="catalog-name"><a href="">Амстердам</a></div>
-								<div class="catalog-price">14 000 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Угловые диваны</a></div>
-								<div class="catalog-name"><a href="">Мартин</a></div>
-								<div class="catalog-price">34 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Аккордеон</a></div>
-								<div class="catalog-name"><a href="">Статус</a></div>
-								<div class="catalog-price">122 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Еврокнижка</a></div>
-								<div class="catalog-name"><a href="">Фиджи</a></div>
-								<div class="catalog-price">5 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Выкатные диваны</a></div>
-								<div class="catalog-name"><a href="">Амстердам</a></div>
-								<div class="catalog-price">14 000 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Угловые диваны</a></div>
-								<div class="catalog-name"><a href="">Мартин</a></div>
-								<div class="catalog-price">34 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-col">
-						<div class="catalog-item">
-							<div class="catalog-inner">
-								<div class="catalog-icons">
-									<a href="" class="catalog-up"></a>
-									<a href="" class="catalog-fav"></a>
-								</div>
-								<div class="catalog-img">
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
-									<div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
-								</div>
-								<div class="catalog-category"><a href="">Аккордеон</a></div>
-								<div class="catalog-name"><a href="">Статус</a></div>
-								<div class="catalog-price">122 500 ₽</div>
-								<div class="catalog-hidden">
-									<div class="catalog-buttons">
-										<a href="" class="button-min">Купить</a>
-										<a href="" class="button-min button-light">в корзину</a>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Габаритные размеры</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-									<div class="catalog-size">
-										<div class="size-title">Спальное место</div>
-										<div class="size-line">
-											<div class="size-item">Длина <br>233см</div>
-											<div class="size-item">Ширина <br>107см</div>
-											<div class="size-item">Высота <br>90см</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="pagination">
-					<a href="" class="pag-arrow pag-prev"></a>
-					<ul class="pag-list">
-						<li><a href="" class="active">1</a></li>
-						<li><a href="">2</a></li>
-						<li><a href="">3</a></li>
-						<li><a href="">4</a></li>
-						<li><a href="">...</a></li>
-						<li><a href="">24</a></li>
-					</ul>
-					<a href="" class="pag-arrow pag-next"></a>
-				</div>
-			</div>	
-		</section>
-		<footer class="footer">
-			<div class="holder">
-				<div class="footer-block">
-					<div class="footer-col">
-						<div class="footer-logo"><img src="images/logo-black.svg" alt=""></div>
-						<ul class="footer-nav">
-							<li><a href="">Политика конфиденциальности</a></li>
-							<li><a href="">Условия возврата</a></li>
-							<li><a href="">Точки самовывоза</a></li>
-						</ul>
-					</div>
-					<div class="footer-col">
-						<ul class="footer-nav">
-							<li><a href="">Аккордеон</a></li>
-							<li><a href="">Угловые диваны</a></li>
-							<li><a href="">Выкатные диваны</a></li>
-							<li><a href="">Диваны “на пол”</a></li>
-							<li><a href="">Диваны книжка</a></li>
-							<li><a href="">Диваны еврокнижка</a></li>
-						</ul>
-					</div>
-					<div class="footer-col">
-						<ul class="footer-nav">
-							<li><a href="">Аккордеон</a></li>
-							<li><a href="">Угловые диваны</a></li>
-							<li><a href="">Выкатные диваны</a></li>
-							<li><a href="">Диваны “на пол”</a></li>
-							<li><a href="">Диваны книжка</a></li>
-							<li><a href="">Диваны еврокнижка</a></li>
-						</ul>
-					</div>
-					<div class="footer-col">
-						<div class="footer-phone"><a href="tel:+88008008080">8 800 800 80 80</a></div>
-						<a href="" class="white-button">Задать вопрос</a>
-					</div>	
-				</div>
-			</div>
-			
-		</footer>
-	</div>
-	<link media="all" rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
-	<link media="all" rel="stylesheet" type="text/css" href="css/slick.css" />
-	<script src="js/jquery-2.2.4.min.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/jquery.scrollTo.min.js"></script>
-	<script src="js/all.js"></script>
-</body>
-</html>
-
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="main">
+    <div class="holder">
+        <div class="category">
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon1">
+                        <img src="images/icons/icon1.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon1-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Диваны прямые</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon2">
+                        <img src="images/icons/icon2.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon2-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Диваны угловые</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon3">
+                        <img src="images/icons/icon3.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon3-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Диваны детские</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item active">
+                    <div class="category-img icon4">
+                        <img src="images/icons/icon4.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon4-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Кухонные диваны</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon5">
+                        <img src="images/icons/icon5.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon5-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Софа и кушетки</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon6">
+                        <img src="images/icons/icon6.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon6-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Кровати</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon7">
+                        <img src="images/icons/icon7.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon7-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Кресла</div>
+                </a>
+            </div>
+            <div class="category-col">
+                <a href="" class="category-item">
+                    <div class="category-img icon8">
+                        <img src="images/icons/icon8.svg" alt="" class="icon-vis">
+                        <img src="images/icons/icon8-hover.svg" alt="" class="icon-hover">
+                    </div>
+                    <div class="category-text">Распродажа</div>
+                </a>
+            </div>
+        </div>
+        <h2 class="title-min">Кресла <span>(12 товаров)</span></h2>
+        <div class="filter">
+            <div class="filter-side">
+                <a href="" class="filter-more">Больше фильтров +</a>
+                <div class="filter-item">
+                    <a href="" class="filter-top">Сортировка</a>
+                    <div class="filter-hidden">
+                        <ul class="filter-list">
+                            <li><a href="">значение фильтра 1</a></li>
+                            <li><a href="">значение фильтра 2</a></li>
+                            <li><a href="">значение фильтра 3</a></li>
+                            <li><a href="">значение фильтра 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-content">
+                <div class="filter-line">
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Цена</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Размеры</a>
+                        <div class="filter-hidden">
+                            <div class="filter-size">
+                                <div class="filter-size-line">
+                                    <div class="filter-size-text">Длина</div>
+                                    <div class="filter-size-input">
+                                        <input type="text" class="input" placeholder="107см">
+                                    </div>
+                                    <div class="filter-size-divider">—</div>
+                                    <div class="filter-size-input">
+                                        <input type="text" class="input" placeholder="2307см">
+                                    </div>
+                                </div>
+                                <div class="filter-size-line">
+                                    <div class="filter-size-text">Ширина</div>
+                                    <div class="filter-size-input">
+                                        <input type="text" class="input" placeholder="107см">
+                                    </div>
+                                    <div class="filter-size-divider">—</div>
+                                    <div class="filter-size-input">
+                                        <input type="text" class="input" placeholder="2307см">
+                                    </div>
+                                </div>
+                                <div class="filter-size-line">
+                                    <div class="filter-size-text">Высота</div>
+                                    <div class="filter-size-input">
+                                        <input type="text" class="input" placeholder="107см">
+                                    </div>
+                                    <div class="filter-size-divider">—</div>
+                                    <div class="filter-size-input">
+                                        <input type="text" class="input" placeholder="2307см">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Спальное место</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Цвет</a>
+                        <div class="filter-hidden">
+                            <div class="color-block">
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color1">
+                                    <label for="color1" class="color-label" style="background: #0e0e0e;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color2">
+                                    <label for="color2" class="color-label" style="background: #454a4e;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color3" checked>
+                                    <label for="color3" class="color-label"
+                                           style="background: #ffffff; border: 1px solid #000;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color4">
+                                    <label for="color4" class="color-label" style="background: #f35858;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color5">
+                                    <label for="color5" class="color-label" style="background: #fb894a;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color6">
+                                    <label for="color6" class="color-label" style="background: #fed65a;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color7">
+                                    <label for="color7" class="color-label" style="background: #9ef971;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color8">
+                                    <label for="color8" class="color-label" style="background: #64a0c2;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color9">
+                                    <label for="color9" class="color-label" style="background: #9264fa;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color10">
+                                    <label for="color10" class="color-label" style="background: #f75290;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color11">
+                                    <label for="color11" class="color-label" style="background: #e5c08a;"></label>
+                                </div>
+                                <div class="color-item">
+                                    <input type="radio" name="color" class="color-input" id="color12">
+                                    <label for="color12" class="color-label" style="background: #57392f;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Преимущества</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Стиль</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Механизм</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Наполнение</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="filter-item">
+                        <a href="" class="filter-top">Тип обивки</a>
+                        <div class="filter-hidden">
+                            <ul class="filter-list">
+                                <li><a href="">значение фильтра 1</a></li>
+                                <li><a href="">значение фильтра 2</a></li>
+                                <li><a href="">значение фильтра 3</a></li>
+                                <li><a href="">значение фильтра 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-current">
+                    <a href="" class="filter-current-item">Кресла</a>
+                    <a href="" class="filter-current-item">10 000 руб - 20 000 руб</a>
+                    <a href="" class="filter-current-item">Зеленый</a>
+                    <a href="" class="filter-delete">Очистить все</a>
+                </div>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Еврокнижка</a></div>
+                        <div class="catalog-name"><a href="">Фиджи</a></div>
+                        <div class="catalog-price">5 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Выкатные диваны</a></div>
+                        <div class="catalog-name"><a href="">Амстердам</a></div>
+                        <div class="catalog-price">14 000 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Угловые диваны</a></div>
+                        <div class="catalog-name"><a href="">Мартин</a></div>
+                        <div class="catalog-price">34 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Аккордеон</a></div>
+                        <div class="catalog-name"><a href="">Статус</a></div>
+                        <div class="catalog-price">122 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Еврокнижка</a></div>
+                        <div class="catalog-name"><a href="">Фиджи</a></div>
+                        <div class="catalog-price">5 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Выкатные диваны</a></div>
+                        <div class="catalog-name"><a href="">Амстердам</a></div>
+                        <div class="catalog-price">14 000 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Угловые диваны</a></div>
+                        <div class="catalog-name"><a href="">Мартин</a></div>
+                        <div class="catalog-price">34 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Аккордеон</a></div>
+                        <div class="catalog-name"><a href="">Статус</a></div>
+                        <div class="catalog-price">122 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Еврокнижка</a></div>
+                        <div class="catalog-name"><a href="">Фиджи</a></div>
+                        <div class="catalog-price">5 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Выкатные диваны</a></div>
+                        <div class="catalog-name"><a href="">Амстердам</a></div>
+                        <div class="catalog-price">14 000 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Угловые диваны</a></div>
+                        <div class="catalog-name"><a href="">Мартин</a></div>
+                        <div class="catalog-price">34 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Аккордеон</a></div>
+                        <div class="catalog-name"><a href="">Статус</a></div>
+                        <div class="catalog-price">122 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Еврокнижка</a></div>
+                        <div class="catalog-name"><a href="">Фиджи</a></div>
+                        <div class="catalog-price">5 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c2.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Выкатные диваны</a></div>
+                        <div class="catalog-name"><a href="">Амстердам</a></div>
+                        <div class="catalog-price">14 000 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c3.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Угловые диваны</a></div>
+                        <div class="catalog-name"><a href="">Мартин</a></div>
+                        <div class="catalog-price">34 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-col">
+                <div class="catalog-item">
+                    <div class="catalog-inner">
+                        <div class="catalog-icons">
+                            <a href="" class="catalog-up"></a>
+                            <a href="" class="catalog-fav"></a>
+                        </div>
+                        <div class="catalog-img">
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c4.jpg" alt=""></a></div>
+                            <div class="catalog-img-slide"><a href=""><img src="images/media/c1.jpg" alt=""></a></div>
+                        </div>
+                        <div class="catalog-category"><a href="">Аккордеон</a></div>
+                        <div class="catalog-name"><a href="">Статус</a></div>
+                        <div class="catalog-price">122 500 ₽</div>
+                        <div class="catalog-hidden">
+                            <div class="catalog-buttons">
+                                <a href="" class="button-min">Купить</a>
+                                <a href="" class="button-min button-light">в корзину</a>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Габаритные размеры</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                            <div class="catalog-size">
+                                <div class="size-title">Спальное место</div>
+                                <div class="size-line">
+                                    <div class="size-item">Длина <br>233см</div>
+                                    <div class="size-item">Ширина <br>107см</div>
+                                    <div class="size-item">Высота <br>90см</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="" class="pag-arrow pag-prev"></a>
+            <ul class="pag-list">
+                <li><a href="" class="active">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">...</a></li>
+                <li><a href="">24</a></li>
+            </ul>
+            <a href="" class="pag-arrow pag-next"></a>
+        </div>
+    </div>
+</section>
+{% endblock %}
