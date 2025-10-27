@@ -1,0 +1,69 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Python (agar ishlatsangiz)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+env/
+venv/
+.venv/
+
+# Node.js (agar ishlatsangiz)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Logs va vaqtinchalik fayllar
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# IDE va text editor fayllari
+.vscode/
+.idea/
+*.iml
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Compiled fayllar
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.out
+*.class
+
+# Cache va backuplar
+.cache/
+__MACOSX/
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Virtual environment va testlar
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+pytest_cache/
